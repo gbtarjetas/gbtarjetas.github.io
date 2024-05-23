@@ -8,12 +8,13 @@ body{
   display: grid;
   place-items: center;
   font-family: "Great Vibes", cursive;
-  font-weight: 400;
   font-style: normal;
   background-image: url("../imagenes/0001.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100%;
+  background-position: center;
+  background-position: top;
+  background-size: 140%;
 }
 
 .photo-section{
@@ -92,3 +93,27 @@ span{
     font-size: 100px;
     color: #fff;
 }
+
+/* (PART A) SPLASH SCREEN */
+#splash {
+    /* (A1) FULLSCREEN */
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 999;
+    width: 100vw; 
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-family: "Great Vibes", cursive;
+    font-size: 3em;
+    color: #9B5521; 
+    background: #E2DBD2;
+  }
+  
+  /* (A4) TO HIDE THE SPLASH SCREEN */
+  #splash.hide {
+    opacity: 0; visibility: hidden;
+    transition: all 1s;
+  }
