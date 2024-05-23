@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Creator: CorelDRAW 2021 (64-Bit) -->
+
+<svg
+   xml:space="preserve"
+   width="0.2mm"
+   height="7.5887332mm"
+   version="1.1"
+   style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"
+   viewBox="0 0 19.946177 756.82436"
+   id="svg370"
+   sodipodi:docname="hr_gold_vertical.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+   id="namedview372"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:document-units="mm"
+   showgrid="false"
+   inkscape:zoom="7.9240902"
+   inkscape:cx="14.891299"
+   inkscape:cy="22.336949"
+   inkscape:window-width="1366"
+   inkscape:window-height="705"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Capa_x0020_1" />
+ <defs
+   id="defs364"><linearGradient
+   inkscape:collect="always"
+   id="linearGradient707"><stop
+     style="stop-color:#aa4400;stop-opacity:1"
+     offset="0"
+     id="stop703" /><stop
+     style="stop-color:#ffcc00;stop-opacity:1"
+     offset="0.49997959"
+     id="stop775" /><stop
+     style="stop-color:#aa4400;stop-opacity:1"
+     offset="1"
+     id="stop705" /></linearGradient>
+  <style
+   type="text/css"
+   id="style355">
+   <![CDATA[
+    .fil0 {fill:url(#id0)}
+   ]]>
+  </style>
+  <linearGradient
+   id="id0"
+   gradientUnits="userSpaceOnUse"
+   x1="1639.83"
+   y1="-110.35"
+   x2="10304.37"
+   y2="-110.35">
+   <stop
+   offset="0"
+   style="stop-opacity:1; stop-color:#9B5521"
+   id="stop357" />
+   <stop
+   offset="0.501961"
+   style="stop-opacity:1; stop-color:#EDAB3B"
+   id="stop359" />
+   <stop
+   offset="1"
+   style="stop-opacity:1; stop-color:#9B5521"
+   id="stop361" />
+  </linearGradient>
+ <linearGradient
+   inkscape:collect="always"
+   xlink:href="#linearGradient707"
+   id="linearGradient709"
+   x1="715.81586"
+   y1="-0.00044318472"
+   x2="10925.61"
+   y2="-37.674961"
+   gradientUnits="userSpaceOnUse"
+   gradientTransform="matrix(0.0655422,0,0,0.20000087,-518.27465,5350.8301)" /></defs>
+ <g
+   id="Capa_x0020_1"
+   inkscape:label="Capa 1"
+   inkscape:groupmode="layer"
+   transform="translate(-5350.8301,518.27462)">
+  <metadata
+   id="CorelCorpID_0Corel-Layer" />
+  <rect
+   class="fil0"
+   width="756.83105"
+   height="19.946177"
+   id="rect367"
+   style="fill:url(#linearGradient709);fill-opacity:1;stroke-width:0.114494"
+   x="-518.27484"
+   y="5350.8301"
+   transform="matrix(0,1,1,0,0,0)" />
+ </g>
+</svg>

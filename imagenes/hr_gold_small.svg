@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Creator: CorelDRAW 2021 (64-Bit) -->
+
+<svg
+   xml:space="preserve"
+   width="19.668mm"
+   height="0.6541mm"
+   version="1.1"
+   style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+   viewBox="0 0 680.97 22.65"
+   id="svg17"
+   sodipodi:docname="hr_gold_small.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><sodipodi:namedview
+   id="namedview19"
+   pagecolor="#ffffff"
+   bordercolor="#000000"
+   borderopacity="0.25"
+   inkscape:showpageshadow="2"
+   inkscape:pageopacity="0.0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#d1d1d1"
+   inkscape:document-units="mm"
+   showgrid="false"
+   inkscape:zoom="16.492738"
+   inkscape:cx="35.712687"
+   inkscape:cy="1.2126549"
+   inkscape:window-width="1366"
+   inkscape:window-height="705"
+   inkscape:window-x="-8"
+   inkscape:window-y="-8"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="Capa_x0020_1" />
+ <defs
+   id="defs11">
+  <style
+   type="text/css"
+   id="style2">
+   <![CDATA[
+    .fil0 {fill:url(#id0)}
+   ]]>
+  </style>
+  <linearGradient
+   id="id0"
+   gradientUnits="userSpaceOnUse"
+   x1="0"
+   y1="11.33"
+   x2="680.97"
+   y2="11.33">
+   <stop
+   offset="0"
+   style="stop-opacity:1; stop-color:#EDAE48"
+   id="stop4" />
+   <stop
+   offset="0.478431"
+   style="stop-opacity:1; stop-color:#9B5521"
+   id="stop6" />
+   <stop
+   offset="1"
+   style="stop-opacity:1; stop-color:#EDAE48"
+   id="stop8" />
+  </linearGradient>
+ </defs>
+ <g
+   id="Capa_x0020_1"
+   inkscape:label="Capa 1">
+  <metadata
+   id="CorelCorpID_0Corel-Layer" />
+  <polygon
+   class="fil0"
+   points="-0,22.65 680.97,22.65 680.97,0 -0,0 "
+   id="polygon14"
+   style="fill:#ff2a2a" />
+ </g>
+</svg>
