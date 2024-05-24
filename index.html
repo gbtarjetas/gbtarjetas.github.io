@@ -10,8 +10,34 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
     <script src="./scripts/1-splash.js"></script>
+    <link rel="stylesheet" href="./estilos/sakura.css" />
 </head>
 <body>
+
+    <script src="./scripts/sakura.js" text="text/javascript"></script>
+    <script>
+      var sakura = new Sakura('body', {
+        colors: [
+          {
+            gradientColorStart: 'rgba(255, 183, 197, 0.9)',
+            gradientColorEnd: 'rgba(255, 197, 208, 0.9)',
+            gradientColorDegree: 120,
+          },
+          {
+            gradientColorStart: 'rgba(255,189,189)',
+            gradientColorEnd: 'rgba(227,170,181)',
+            gradientColorDegree: 120,
+          },
+          {
+            gradientColorStart: 'rgba(212,152,163)',
+            gradientColorEnd: 'rgba(242,185,196)',
+            gradientColorDegree: 120,
+          },
+        ],
+        delay: 200,
+      });
+    </script>
+
     
     <section class="photo-section">
 
@@ -33,7 +59,7 @@
        </section>
 
        <section class="ceremonia">
-    <div class="normal-text"><br>
+    <div class="normal-text">
         Ceremonia religiosa:<br>
         <br>
         Fecha: 20/06/2024 Horas: 12:00<br>
@@ -42,8 +68,27 @@
         <div class="button-83">Agendar fecha</div></a>
 
         <br>
-        Lugar: <br>
+        Lugar: Santuario de Nuestra Señora de Río Blanco y Paypaya<br>
+        <a href="https://maps.app.goo.gl/Q3aDfjX84QwKaqqD9" target="_blank">
+            <div class="button-83">¿Cómo llegar?</div></a>
     </div>
+
+    <div class="normal-text">
+        Fiesta:<br>
+        <br>
+        Fecha: 20/06/2024 Horas: 15:00<br>
+
+        <a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=NTE2cWJlaTI2cWZuazdrZzBhYXEzY2cxZmEgZjY4ODk5MjE1YzJlM2M0YTMzNjY4ZjRlYjZmMzdlNDFmMTQ5OGI1ZjZjNzVlMDc1NTZmNWJmZDVmZDg5OTM2NUBn&tmsrc=f68899215c2e3c4a33668f4eb6f37e41f1498b5f6c75e07556f5bfd5fd899365%40group.calendar.google.com" target="_blank">
+        <div class="button-83">Agendar fecha</div></a>
+
+        <br>
+        Lugar: Sisu Eventos <br>
+        Guayaquil 94 esq. talcahuano
+        <a href="https://maps.app.goo.gl/797V2AqGX5CTm7Vr7" target="_blank">
+            <div class="button-83">¿Cómo llegar?</div></a>
+    </div>
+
+
       
     </section>
 
@@ -53,7 +98,7 @@
         <div class="countdown">
             <div>
                 <p id="days">00</p>
-                <span>Dias</span>
+                <span>Días</span>
             </div>
             <div>
                 <p id="hours">00</p>
@@ -72,6 +117,7 @@
     </section>
     <section class="final-sms"><h2>Felicidades!</h2></section>
     <script src="scripts/script.js"></script>
+
 
 </body>
 </html>

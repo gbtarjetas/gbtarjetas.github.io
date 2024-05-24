@@ -136,8 +136,8 @@ span {
     top: 0; 
     left: 0; 
     z-index: 999;
-    width: 100vw; 
-    height: 100vh;
+    width: 100%; 
+    height: 100%;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -154,7 +154,8 @@ span {
   }
 
 
-/* CSS */
+/* Boton CSS */
+
 a {
   text-decoration: none;
 }
@@ -198,3 +199,17 @@ a {
 .button-83:focus {
   box-shadow: rgba(72, 35, 7, .46) 0 0 0 4px, -6px 8px 10px rgba(81,41,10,0.1), 0px 2px 2px rgba(81,41,10,0.2);
 }
+
+/* Efecto de petalos */
+
+.dot{
+  width:35px;
+  height:35px;
+  position:absolute;
+  background: url(https://image.ibb.co/kyUHab/rose.png);
+  background-size: 100% 100%;
+}
+
+#container {width:100%; height:100%; }
+
+#logo{ left:50%; top:50%; position:absolute; border-radius:10px; }
