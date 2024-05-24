@@ -9,6 +9,8 @@ body{
   place-items: center;
   font-family: "Great Vibes", cursive;
   font-style: normal;
+  resize: none;
+  background-color: #e5e7eb;
   background-image: url("../imagenes/0001.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -62,6 +64,10 @@ body{
   width: 70% !important;
   display: block;
   }
+
+  .countdown{
+    width: 100% !important;
+    }
 }
 
 .countdown{
