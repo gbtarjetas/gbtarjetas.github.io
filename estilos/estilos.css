@@ -44,6 +44,49 @@ body{
 .ceremonia {
   width: 100%;
   background-color: #e5e7eb;
+  line-height: 2em;
+}
+
+.photo-album {
+  width: 100%;
+  background-color: #e5e7eb;
+  line-height: 2em;
+  align-items: center;
+  place-items: center;
+
+}
+
+/* .image-gallery {
+  width: 20%;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: auto;
+  border: 5px solid #fff;
+  box-shadow: -6px 8px 10px rgba(81,41,10,0.1),0px 2px 2px rgba(81,41,10,0.2);
+}
+
+*/
+
+/* image gallery */
+
+.gallery {
+  margin: auto;
+  display: block;
+  align-items: center;
+  width: 80%;
+}
+
+.gallery img:hover {
+  border: 5px solid #f2c97c;
+}
+
+.gallery img {
+  width: 200px;
+  height: auto;
+  border: 5px solid #fff;
+  box-shadow: -6px 8px 10px rgba(81,41,10,0.1),0px 2px 2px rgba(81,41,10,0.2);
 }
 
 .vectors {
@@ -67,7 +110,12 @@ body{
 
   .countdown{
     width: 100% !important;
-    }
+  }
+
+  .gallery img {
+    width: 100px;
+}
+
 }
 
 .countdown{
@@ -89,10 +137,20 @@ h1{
     padding: 30px 10px;
 }
 
-.normal-text {
+.title-text {
   text-align: center;
   color: #9B5521;
   font-size: 40px;
+  padding: 30px 10px;
+}
+
+.normal-text {
+  text-align: center;
+  color: #9B5521;
+  font-family: "Amita", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.5em;
   padding: 30px 10px;
 }
 
@@ -104,9 +162,10 @@ p{
     width: 2em;
     border-radius: 50%;
     color: #9B5521;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 2rem;
-    font-weight: bold;
+    font-family: "Amita", serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.5em;
     background-color: #f2c97c;
 }
 span {
@@ -178,9 +237,10 @@ a {
   color: #9B5521;
   column-gap: 1rem;
   cursor: pointer;
-  font-family: serif;
-  font-weight: 600;
-  font-size: 0.5em;
+  font-family: "Amita", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1em;
   line-height: 24px;
   margin-right: auto;
   margin-left: auto;
