@@ -21,8 +21,8 @@ body{
 
 .photo-section{
     width: 100%;
-    min-height: 85vh;
-    line-height: 3em;
+    /* min-height: 85vh;
+    line-height: 3em; */
     display: flex;
     align-items: center;
     place-items: center;
@@ -54,6 +54,22 @@ body{
   align-items: center;
   place-items: center;
 
+}
+
+.regalos {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  background-color: #E2DBD2;
+}
+
+.despedida {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: block;
+  background-color: #e5e7eb;
 }
 
 /* .image-gallery {
@@ -91,6 +107,14 @@ body{
 
 .vectors {
   width: 50%;
+  margin: auto;
+  display: flex;
+}
+
+.iconos {
+  width: 2.5em;
+  margin: auto;
+  display: flex;
 }
 
 @media (max-width: 900px){
@@ -109,11 +133,11 @@ body{
   }
 
   .countdown{
-    width: 100% !important;
+    width: 95% !important;
   }
 
   .gallery img {
-    width: 100px;
+    width: 110px;
 }
 
 }
@@ -141,7 +165,7 @@ h1{
   text-align: center;
   color: #9B5521;
   font-size: 40px;
-  padding: 30px 10px;
+  line-height: 1.5em;
 }
 
 .normal-text {
@@ -151,7 +175,7 @@ h1{
   font-weight: 400;
   font-style: normal;
   font-size: 1.5em;
-  padding: 30px 10px;
+  line-height: 1.5em;
 }
 
 p{
