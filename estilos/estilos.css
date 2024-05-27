@@ -115,10 +115,6 @@ border: 5px solid #f2c97c;
   display: block;
   }
 
-  .countdown{
-    width: 20%;
-  }
-
   .image-gallery {
     width: 70%;
 }
@@ -126,19 +122,25 @@ border: 5px solid #f2c97c;
 }
 
 .countdown{
-    display: flex;
-    justify-content: space-evenly;
-    width: 50%;
+    display: block;
+    justify-content:center;
     place-items: center;
     place-content: center;
     justify-content: center;
-    margin-right: auto;
-    margin-left: auto;
+
 }
 .countdown div{
-    display: grid;
     place-items: center;
     padding: 10px;
+}
+
+.tabla, tr, td {
+  text-align: center;
+  width: 100%;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 h1{
@@ -166,8 +168,9 @@ h1{
 }
 
 p{
-    display: grid;
-    place-items: center;
+    display: block;
+    text-align:center;
+    line-height: 2em;
     border: solid 1px #9B5521;
     height: 2em;
     width: 2em;
@@ -178,6 +181,8 @@ p{
     font-style: normal;
     font-size: 1.5em;
     background-color: #f2c97c;
+    margin-left: auto;
+    margin-right: auto;
 }
 span {
     display: block;
