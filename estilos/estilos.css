@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  .mySlides {display: none;}
+  width: 100% !important;
 }
 
 body{
@@ -118,7 +118,7 @@ border: 5px solid #f2c97c;
   }
 
   .image-gallery {
-    width: 80%;
+    width: 70%;
 }
 
 }
@@ -277,6 +277,8 @@ a {
 .active {
   background-color: #717171;
 }
+
+.mySlides {display: none;}
 
 /* Slideshow container */
 .slideshow-container {
