@@ -9,10 +9,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Amita:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Asul:wght@400;700&family=Laila:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <script src="./scripts/1-splash.js"></script>
     <link rel="stylesheet" href="./estilos/sakura.css" />
-
-
+  
   <!-- Add jQuery library -->
 	<script type="text/javascript" src="./scripts/jquery-1.10.1.min.js"></script>
 
@@ -294,6 +294,7 @@
     </section>
 
     <section class="counter-container">
+      
         <img class="vectors" src="./imagenes/hr_gold_large.svg">
         <div class="title-text">Faltan</div><br>
         <div class="countdown">
@@ -325,30 +326,81 @@
         Compartamos nuestros mejores momentos juntos:
     </div>
 
-    <div class="gallery">
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <a class="fancybox" href="./fotos/1_b.png" data-fancybox-group="gallery" title="">
+    <img class="image-gallery" src="./fotos/1_b.png"></a>
+  <div class="text"></div>
+</div>
 
-    <a class="fancybox" href="./fotos/1_b.jpg" data-fancybox-group="gallery" title="">
-      <img class="image-gallery" src="./fotos/1_b.jpg"></a>
-    
-    <a class="fancybox" href="./fotos/2_b.jpg" data-fancybox-group="gallery" title="">
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <a class="fancybox" href="./fotos/2_b.jpg" data-fancybox-group="gallery" title="">
     <img class="image-gallery" src="./fotos/2_b.jpg"></a>
+  <div class="text"></div>
+</div>
 
-    <a class="fancybox" href="./fotos/3_b.jpg" data-fancybox-group="gallery" title="">
-      <img class="image-gallery" src="./fotos/3_b.jpg"></a>
-    
-    <a class="fancybox" href="./fotos/4_b.jpg" data-fancybox-group="gallery" title="">
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <a class="fancybox" href="./fotos/3_b.jpg" data-fancybox-group="gallery" title="">
+    <img class="image-gallery" src="./fotos/3_b.jpg"></a>
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <a class="fancybox" href="./fotos/4_b.jpg" data-fancybox-group="gallery" title="">
     <img class="image-gallery" src="./fotos/4_b.jpg"></a>
-    
-    <a class="fancybox" href="./fotos/5_b.jpg" data-fancybox-group="gallery" title="">
-      <img class="image-gallery" src="./fotos/5_b.jpg"></a>
-    
-    <a class="fancybox" href="./fotos/6_b.jpg" data-fancybox-group="gallery" title="">
-    <img class="image-gallery" src="./fotos/6_b.jpg"></a>
-    
-    <a class="fancybox" href="./fotos/7_b.jpg" data-fancybox-group="gallery" title="">
-      <img class="image-gallery" src="./fotos/7_b.jpg"></a>
+  <div class="text"></div>
+</div>
 
-    </div>
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <a class="fancybox" href="./fotos/5_b.jpg" data-fancybox-group="gallery" title="">
+    <img class="image-gallery" src="./fotos/5_b.jpg"></a>
+  <div class="text"></div>
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <a class="fancybox" href="./fotos/6_b.png" data-fancybox-group="gallery" title="">
+    <img class="image-gallery" src="./fotos/6_b.png"></a>
+  <div class="text"></div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span>
+  <span class="dot"></span>  
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<script>
+let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2500); // Change image every 2 seconds
+}
+</script>
     
     </section>
 
@@ -370,9 +422,9 @@
           <div class="title-text">Datos Bancarios</div>
           <div class="normal-text">
 Romina Martinez<br>
-CBU: 12345623561<br>
-Alias: alias<br>
-DNI: 32200552<br>
+CBU: 0070116320000007347102<br>
+CUIL: 23336901634<br>
+ALIAS: DUENDE.LOGRO.DIQUE<br>
 Banco Galicia
           </div>
         </div>

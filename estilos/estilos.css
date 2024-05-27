@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  .mySlides {display: none;}
 }
 
 body{
@@ -29,6 +30,7 @@ body{
     justify-content: center;
     flex-direction: column;
     background-color: rgba(248, 246, 247, 0.5);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .counter-container{
@@ -39,12 +41,14 @@ body{
   display: flex;
   flex-direction: column;
   background-color: #E2DBD2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .ceremonia {
   width: 100%;
   background-color: #e5e7eb;
   line-height: 2em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .photo-album {
@@ -53,6 +57,7 @@ body{
   line-height: 2em;
   align-items: center;
   place-items: center;
+  box-shadow: -6px 8px 10px rgba(81,41,10,0.1),0px 2px 2px rgba(81,41,10,0.2);
 
 }
 
@@ -72,37 +77,18 @@ body{
   background-color: #e5e7eb;
 }
 
-/* .image-gallery {
-  width: 20%;
-  align-items: center;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  margin: auto;
-  border: 5px solid #fff;
-  box-shadow: -6px 8px 10px rgba(81,41,10,0.1),0px 2px 2px rgba(81,41,10,0.2);
-}
-
-*/
-
-/* image gallery */
-
-.gallery {
-  margin: auto;
-  display: block;
-  align-items: center;
-  width: 80%;
-}
-
-.gallery img:hover {
-  border: 5px solid #f2c97c;
-}
-
-.gallery img {
-  width: 200px;
+.image-gallery {
+  width: 40%;
   height: auto;
   border: 5px solid #fff;
   box-shadow: -6px 8px 10px rgba(81,41,10,0.1),0px 2px 2px rgba(81,41,10,0.2);
+  margin: auto;
+  display: block;
+  align-items: center;
+}
+
+.image-gallery:hover {
+border: 5px solid #f2c97c;
 }
 
 .vectors {
@@ -136,8 +122,8 @@ body{
     width: 95% !important;
   }
 
-  .gallery img {
-    width: 110px;
+  .image-gallery {
+    width: 80%;
 }
 
 }
@@ -146,7 +132,11 @@ body{
     display: flex;
     justify-content: space-evenly;
     width: 50%;
-    flex-wrap: wrap;
+    place-items: center;
+    place-content: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
 }
 .countdown div{
     display: grid;
@@ -171,7 +161,7 @@ h1{
 .normal-text {
   text-align: center;
   color: #9B5521;
-  font-family: "Amita", serif;
+  font-family: "Asul", serif;
   font-weight: 400;
   font-style: normal;
   font-size: 1.5em;
@@ -186,7 +176,7 @@ p{
     width: 2em;
     border-radius: 50%;
     color: #9B5521;
-    font-family: "Amita", serif;
+    font-family: "Asul", serif;
     font-weight: 700;
     font-style: normal;
     font-size: 1.5em;
@@ -242,7 +232,6 @@ span {
     transition: all 1s;
   }
 
-
 /* Boton CSS */
 
 a {
@@ -261,8 +250,8 @@ a {
   color: #9B5521;
   column-gap: 1rem;
   cursor: pointer;
-  font-family: "Amita", serif;
-  font-weight: 400;
+  font-family: "Asul", serif;
+  font-weight: 600;
   font-style: normal;
   font-size: 1em;
   line-height: 24px;
@@ -290,16 +279,64 @@ a {
   box-shadow: rgba(72, 35, 7, .46) 0 0 0 4px, -6px 8px 10px rgba(81,41,10,0.1), 0px 2px 2px rgba(81,41,10,0.2);
 }
 
-/* Efecto de petalos */
-
-.dot{
-  width:35px;
-  height:35px;
-  position:absolute;
-  background: url(https://image.ibb.co/kyUHab/rose.png);
-  background-size: 100% 100%;
+.active {
+  background-color: #717171;
 }
 
-#container {width:100%; height:100%; }
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
 
-#logo{ left:50%; top:50%; position:absolute; border-radius:10px; }
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 8px;
+  width: 8px;
+  margin: 0 2px;
+  background-color: #f2c97c;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #E2DBD2;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
