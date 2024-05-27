@@ -2,8 +2,9 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  width: 90% !important;
-}
+  }
+
+.mySlides {display: none;}
 
 body{
   display: grid;
@@ -54,7 +55,8 @@ body{
   line-height: 2em;
   align-items: center;
   place-items: center;
-  }
+
+}
 
 .regalos {
   width: 100%;
@@ -118,7 +120,7 @@ border: 5px solid #f2c97c;
   }
 
   .image-gallery {
-    width: 70%;
+    width: 80%;
 }
 
 }
@@ -278,10 +280,9 @@ a {
   background-color: #717171;
 }
 
-.mySlides {display: none;}
-
 /* Slideshow container */
 .slideshow-container {
+  max-width: 800px;
   position: relative;
   margin: auto;
 }
@@ -293,7 +294,7 @@ a {
   padding: 8px 12px;
   position: absolute;
   bottom: 8px;
-  width: 100%;
+  width: 80%;
   text-align: center;
 }
 
