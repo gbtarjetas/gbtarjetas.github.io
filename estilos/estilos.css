@@ -100,6 +100,11 @@ border: 5px solid #f2c97c;
   display: flex;
 }
 
+.icon_svg {
+  width: 1em;
+  fill: #9B5521;
+}
+
 @media (max-width: 900px){
 
   .vectors {
@@ -192,6 +197,7 @@ span {
     font-size: 1.5rem;
     font-weight: 400;
 }
+
 .final-sms{
     position: absolute;
     left: 0;
